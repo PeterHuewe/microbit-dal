@@ -55,7 +55,8 @@
 
         "-Iinc/bluetooth",
 
-        "-Iinc/platform"
+        "-Iinc/platform",
+          "-DTARGET_NRF51_CALLIOPE"
 
       ],
 
