@@ -3,7 +3,7 @@
 
     "name": "microbit-dal",
 
-    "version": "2.0.0-calliope-1.0.5+",
+    "version": "2.0.0-calliope-1.0.6",
 
     "keywords": "microbit, framework, bbc",
 
@@ -31,9 +31,11 @@
 
     "dependencies": {
 
-        "ble": "lancaster-university/BLE_API#v2.5.0+mb3",
 
-        "ble-nrf51822": "lancaster-university/nrf51822#v2.5.0+mb6",
+    "ble": "lancaster-university/BLE_API#v2.5.0+mb3",
+
+    "ble-nrf51822": "lancaster-university/nrf51822#v2.5.0+mb7",
+
 
         "nrf51-sdk": "palfrey/nrf51-sdk#platformio-3.0"
 
