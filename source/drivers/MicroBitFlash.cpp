@@ -43,7 +43,7 @@ DEALINGS IN THE SOFTWARE.
 #endif
 
 #include "nrf_soc.h"
-extern "C" void btle_set_user_evt_handler(void (*func)(uint32_t));
+//extern "C" void btle_set_user_evt_handler(void (*func)(uint32_t));
 
 /*
  * Return to our predefined compiler settings.
@@ -68,7 +68,7 @@ MicroBitFlash::MicroBitFlash()
 {
     if (!evt_handler_registered)
     {
-        btle_set_user_evt_handler(nvmc_event_handler);
+//        btle_set_user_evt_handler(nvmc_event_handler);
         evt_handler_registered = true;
     }
 }
